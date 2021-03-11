@@ -1,5 +1,4 @@
 package Model;
-
 import java.util.ArrayList;
 
 public class ModelDosen extends ModelPerson {
@@ -19,7 +18,7 @@ public class ModelDosen extends ModelPerson {
     }
 
     public void tambahMataKuliahPengampu(Matakuliah matakuliah) {
-        System.out.println("Data tambahMataKuliahPengampu");
+        System.out.println("Mata Kuliah Pengampu berhasil ditambah");
     }
 
     public void setNidn(String nidn) {

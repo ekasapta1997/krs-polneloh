@@ -1,10 +1,9 @@
 import Model.*;
 
-public class main {
-
-    public static void main(String[] args) {
-        ModelMahasiswa modelMhs = new ModelMahasiswa("Lana", "1905017");
-
-
+public class main 
+{
+public static void main(String[] args) 
+    {
+        ModelMahasiswa modelMhs = new ModelMahasiswa("Kamal", "1905012");
     }
 }

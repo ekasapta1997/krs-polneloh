@@ -1,6 +1,7 @@
 package Model;
 
-public class Matakuliah {
+public class Matakuliah 
+{
     private String namaMataKuliah;
     private Integer sks, semester;
     private ModelDosen pengampu;

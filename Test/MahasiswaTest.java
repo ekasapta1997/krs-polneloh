@@ -6,8 +6,8 @@ public class MahasiswaTest {
     public static void main(String [] args){
         ModelMahasiswa mhs = new ModelMahasiswa(null, null);
         
-        //Test 1 - panjang nim harus 7
-        String hasilEkspestasi = "Panjang NIM harus 7!";
+        //Test 1 - panjang nim harus tujuh krakter
+        String hasilEkspestasi = "Panjang NIM harus tujuh karakter!";
         if(mhs.setNim("12345678") == hasilEkspestasi){
             System.out.println("Test 1 - Berhasil");
         }else{
@@ -22,8 +22,8 @@ public class MahasiswaTest {
             System.out.println("Test 1 - Gagal");
         }
         
-        //Test 3 - NIM harus angka
-        String hasilEkspestasi3 = "NIM harus berisi angka!";
+        //Test 3 - NIM wajib angka
+        String hasilEkspestasi3 = "NIM harus angka!";
         if(mhs.setNim("i2a4567") == hasilEkspestasi3){
             System.out.println("Test 1 - Berhasil");
         }else{

@@ -1,7 +1,7 @@
 package Model;
+public class ModelPerson 
 
-public class ModelPerson {
-
+{
     private String nama;
 
     public void setNama(String nama) {
